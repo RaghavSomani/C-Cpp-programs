@@ -1,0 +1,309 @@
+*
+{
+	font-family: lucida, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	width: 100%;
+	display: -webkit-box;
+	line-height: 1.28;
+}
+div
+{
+	display: block;
+}
+#bigWrapper
+{
+	display: -webkit-box;
+	width: 100%;
+	-webkit-box-pack: center;
+	-webkit-box-orient: vertical;
+	margin-top: 0px;
+}
+#top
+{
+	min-width: 980px;
+	padding-bottom: 1px;
+	margin: 0px auto;
+	-webkit-box-pack: center;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	height: 82px;
+	background-color: #3b5998
+}
+#centerTop
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	margin: 0px auto;
+	padding-top: 13px;
+	width: 980px;
+}
+#fblogo
+{
+	margin-left: 0px;
+	margin-top: 17px;
+}
+#login
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	margin-left: 430px;
+	padding-top: 0px;
+	margin-top: -3px;
+}
+.loginTable
+{
+	vertical-align: middle;
+	border-collapse: separate;
+	border-spacing: 4px;
+}
+.inputType
+{
+	color: white;
+	text-indent: 0px;
+	margin: 0px;
+	font-size: 11px;
+}
+.data
+{
+	border: 1px solid #1d2a5b;
+	width: 148px;
+	height: 20px;
+	text-indent: 3px;
+}
+#pass
+{
+	margin-left: 10px;
+}
+.comment
+{
+	color: #332;
+	font-size: 11px;
+	vertical-align: top;
+}
+#logIn
+{
+	font-size: 11px;
+	font-weight: bold;
+	padding: 3px 6px;
+	text-align: center;
+	vertical-align: top;
+	background-color: #5b74a8;
+	border: 1px solid #999;
+	border-color: #29447e;
+	color: white;
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+}
+#button
+{
+	margin-left: 10px;
+}
+#bottom
+{
+	background: #edf0f5;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+#pictures
+{
+	margin-top: 43px;
+	margin-left: 185px;
+	color: #666;
+	font-size: 15px;
+	font-family: FreightSans Bold;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+#connect
+{
+	font-size: 28px;
+	font-weight: bold;
+	color: #333;
+}
+#wrapper
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	margin: 20px auto;
+	min-height: 500px;
+}
+#signUp
+{
+	margin-left: 112px;
+	margin-top: -5px;
+}
+.big
+{
+	font-size: 17px;
+	padding-left: 15px;
+	vertical-align: middle;
+	font-weight: bold;
+	color: #333;
+	line-height: 22px;
+}
+#picTable
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-spacing: 2px 23px;
+}
+#sign
+{
+	font-size: 40px;
+	color: #333;
+	font-family: Franklin Gothic Medium;
+}
+#free
+{
+	font-size: 20px;
+	color: #333;
+	font-family: Calibri Light;
+	text-shadow: rgba(110,110,110,0.3) 0px 1px 1px;
+}
+.box
+{
+	height: 30px;
+	border: white;
+	padding: 4px;
+	width: 183px;
+	margin: -2px;
+	text-indent: 5px;
+	font-size: 18px;
+	color: #999;
+	border: 1px solid #bdc7d8;
+	-webkit-border-radius: 5px;
+}
+#lastName
+{
+	margin-left: 13px;
+}
+.bigBox
+{
+	height: 30px;
+	border: white;
+	padding: 4px;
+	width: 389px;
+	margin: -2px;
+	text-indent: 5px;
+	margin-left: -2px;
+	margin-top: 10px;
+	font-size: 18px;
+	color: #999;
+	border: 1px solid #bdc7d8;
+	-webkit-border-radius: 5px;
+}
+#bday
+{
+	margin-top: 10px;
+	font-size: 18px;
+}
+.birthday
+{
+	padding: 5px;
+	margin-top: 5px;
+	border: 1px solid #bdc7d8;
+	font-size: 13px;
+	margin-right: -4px;
+}
+#why
+{
+	font-size: 11px;
+	color: #3b5998;
+	margin-left: 10px;
+	margin-top: 7px;
+}
+#bdayWrapper
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+#gender
+{
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.mf
+{
+	font-size: 18px;
+	text-indent: 10px;
+	padding-left: 5px;
+	vertical-align: top;
+	margin-right: 20px;
+	
+}
+input[type=radio]
+{
+	padding-top: 10px;
+}
+#terms
+{
+	font-size: 11px;
+	padding-top: 15px;
+	color: #777;
+}
+.blue
+{
+	color: #3b5998;
+}
+#signUpButton
+{
+	margin-top: 20px;
+	margin-left: 0px;
+	width: 195px;
+	height: 40px;
+	background: -webkit-linear-gradient(#67ae55, #578843);
+	-webkit-box-shadow: inset 0 1px 1px #a4e388;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	color: white;
+	border: 1px solid #3b6e22;
+	-webkit-border-radius: 5px;
+	font-weight: bold;
+	font-size: 18px
+}
+#foot
+{
+	height: 155px;
+	width: 100%;
+}
+#created
+{
+	border-top: 1px solid #a0a9c0;
+	width: 100%;
+	margin-top: 20px;
+	padding-top: 15px;
+	font-size: 14px;
+	font-weight: bold;
+	height: 45px;
+	color: #666;
+}
+#conclude
+{
+	width: 980px;
+	margin: 0px auto;
+	border-bottom: 1px solid #ccc;
+	padding-top: 8px;
+	padding-bottom: 5px;
+}
+#crap
+{
+	width: 980px;
+	margin: 5px auto;
+	font-size: 11px;
+}
+#crapTable
+{
+	border-spacing: 20px 5px;
+	margin-left: -20px;
+}
+#copyright
+{
+	margin: 20px 0px;
+}
+.grey
+{
+	color: #737373;
+	font-weight: bold;
+}

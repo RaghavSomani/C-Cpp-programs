@@ -1,0 +1,73 @@
+body
+{
+	display: block;
+}
+#box
+{
+	width: 500px;
+	margin: 50px auto;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid transparent;
+	background: -webkit-radial-gradient(center,circle,white 20%,orange 100%);
+	-webkit-border-radius: 25px;
+	-webkit-box-shadow: rgba(155,155,155, 0.7) 8px 8px 8px;
+}
+#text
+{
+	font: bold 30px Century Golith;
+	text-shadow: rgb(110,110,110) 2px 2px 5px;
+}
+#boxes
+{
+	display:center;
+	text-align: center;
+	color:#ffffff;
+	background: red;
+	-webkit-border-radius: 10px;
+	margin: 100px auto;
+	opacity: 0.6;
+	width: 120px;
+	padding: 5px;
+	font: bold 20px Century Golith;
+	text-shadow: rgb(110,110,110) 2px 2px 2px;
+	-webkit-box-shadow: rgb(110,110,110) 5px 5px 5px;
+	-webkit-transition: -webkit-transform 2s, opacity 2s, background 2s, width 2s, text-shadow 2s, -webkit-box-shadow 2s, padding 2s, font 2s;
+}
+#boxes:hover
+{
+	-webkit-transform: translate(10px) rotate(360deg);
+	opacity: 1;
+	background: #1ec7e6;
+	width: 300px;
+	padding:10px;
+	text-shadow: rgb(110,110,110) 4px 4px 4px;
+	-webkit-box-shadow: rgb(80,80,80) 8px 8px 8px;
+	font: bold 40px Century Golith;
+}
+.button
+{
+	background: #1ec7e6;
+	width: 56px;
+	padding: 0px;
+	margin: 100px auto;
+	text-align: center;
+	text-shadow: rgb(110,110,110) 1px 1px 1px;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: rgba(80,80,80,0.7) 2px 2px 2px;
+	-webkit-transition:-webkit-transform 1s, background 1s;
+}
+.button:hover
+{
+	-webkit-transform: translate(-2px, -3px);
+	background: #1ef7e6;
+}
+a:link
+{
+	color: blue;
+	font: 18px Arial;
+}
+table
+{
+	margin: 50px auto;
+}
