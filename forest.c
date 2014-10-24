@@ -1,8 +1,8 @@
 #include<stdio.h>
-void burn(int forest[50][50],int rows,int cols,int srow,int scol);
+void burn(int forest[100][100],int rows,int cols,int srow,int scol);
 void main()
 {
-	int forest[50][50],rows,cols,i,j,srow,scol;
+	int forest[100][100],rows,cols,i,j,srow,scol;
 	char c;
 	printf("Number of rows : ");
 	scanf("%d", &rows);
@@ -23,7 +23,7 @@ void main()
 		printf("\n");
 	}
 }
-void burn(int forest[50][50],int rows,int cols,int srow,int scol)
+void burn(int forest[100][100],int rows,int cols,int srow,int scol)
 {
 	static count=0;
 	count++;
