@@ -1,0 +1,31 @@
+Model Selection
+===============
+
+
+```{r}
+library(ISLR)
+summary(Hitters)
+```
+Removing missing values
+```{r}
+Hitters = na.omit(Hitters)
+with(Hitters,sum(is.na(Salary)))
+```
+Best subset regression
+======================
+We will now use package `leaps` to evaluate all the best subset models.
+Default `nvmax` is 8.
+```{r}
+library(leaps)
+regfit.full = regsubsets(Salary~., data=Hitters, nvmax=19)
+reg.summary = summary(regfit.full)
+reg.summary
+names(reg.summary)
+plot(reg.summary$cp,xlab="Number of variables", ylab="Cp")
+points(10,reg.summary$cp[10],pch=20,col="red")
+```
+There is a plot method for the `regsubset` object
+```{r}
+plot(regfit.full,scale = "Cp")
+coef(regfit.full,10)
+```
